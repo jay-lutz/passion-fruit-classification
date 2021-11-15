@@ -5,7 +5,7 @@ import tensorflow as tf
 from tensorflow.keras.applications import ResNet50
 from tensorflow.keras.applications.resnet import preprocess_input
 
-architecture = 'mobile'
+architecture = 'alex'
 
 if architecture == 'alex':
     alex = AlexNet()
